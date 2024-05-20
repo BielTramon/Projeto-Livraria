@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro autores</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <div class="cabesalho">
+        <div class="marca">
+            <img src="logo.png" width="150" height="150">
+        </div>
+        <a href="home.html">home</a>
+        <a href="cad_usuarios.php">usuario</a>
+        <a href="autores.html">autores</a>
+        <a href="livro.html">livro</a>
+        <a href="categoria.html">categoria</a>
+        <a href="classificacao.html">classificacao</a>
+    </div>
+    <div class="fundoA">
+        <br>
+        <br>
+        <form name="formulario" method="post" action="cadastrarautores.php">
+            <div class="CadastroA">
+                <div class="cadastroA">
+                    <br>
+                    <h1>Cadastrar autores: </h1>
+                    <br>
+                        <br>
+                    <br>
+                    <label>Codigo</label>
+                    <input type="text" name="codigo" id="codigo" size=10 required>
+                    <br>
+                        <br>
+                    <br>
+                    <label>Nome:</label>
+                    <input type="text" name="nome" id="nome" size="20" required>
+                    <br>
+                        <br>
+                    <br>
+                    <label>Endereco:</label>
+                    <input type="text" name="endereco" id="endereco" size="20" required>
+                    <br>
+                        <br>
+                    <br>
+                    <label>cidade:</label>
+                    <input type="text" name="cidade" id="cidade" size="20" required>
+                    <br>
+                        <br>
+                    <br>
+                    <label>estado:</label>
+                    <input type="text" name="estado" id="estado" size="20" required>
+                    <br>
+                        <br>
+                    <br>
+                    <label>pais:</label>
+                    <input type="text" name="pais" id="pais" size="20" required>
+                    <br>
+                        <br>
+                    <br>
+                    <label>nacionalidade:</label>
+                    <input type="text" name="nacionalidade" id="nacionalidade" size="20" required>
+                    <br>
+                        <br>
+                    <br>
+                    <input type="submit" value="cadastrar" id="cadastrar" name="cadastrar">
+                    <input type="submit" value="excluir" id="excluir" name="excluir">
+                    <input type="submit" value="alterar" id="alterar" name="alterar">
+                    <input type="submit" value="pesquisar" id="pesquisar" name="pesquisar">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html> 
